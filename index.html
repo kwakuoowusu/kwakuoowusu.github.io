@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kwaku Owusu</title>
  
+    <!--Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -72,17 +75,17 @@
 
   <br id = "work"> <br> <br>
 
-    <div class = "container parent text-center">
+    <div class = "container text-center">
         <h3> Work </h3>
           <br> <br>
         <p> Here are some samples of my writing, all of these were created in my technical writing class, CSE 300.</p>
         <p> Here are I created a large variety of writing, ranging from a resume to a news release.</p>
         <p> Click the buttons to open a larger preview</p>
         
-
+      <div class = "parent">
         <!-- Modal Window For Resume -->
-        <div >
-          <iframe  src = "ViewerJS/../documents/resume.pdf" width = '400' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
+        <div class = "child" >
+          <iframe  src = "ViewerJS/../documents/resume.pdf" width = '500' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
 
                               <br>
           <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target= "#myModal">Resume</button>
@@ -109,8 +112,8 @@
             </div>
         </div>
 
-        <div >
-          <iframe  src = "ViewerJS/../documents/coverletter.pdf" width = '400' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
+        <div class = "child" >
+          <iframe  src = "ViewerJS/../documents/coverletter.pdf" width = '500' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
 
                               <br>
           <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target= "#myModal2">Cover Letter</button>
@@ -138,8 +141,8 @@
         </div>
 
 
-      <div >
-          <iframe  src = "ViewerJS/../documents/userinstructions.pdf" width = '400' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
+      <div class = "child" >
+          <iframe  src = "ViewerJS/../documents/userinstructions.pdf" width = '500' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
 
                               <br>
           <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target= "#myModal3">User Instructions</button>
@@ -166,8 +169,8 @@
             </div>
         </div>
 
-      <div >
-          <iframe  src = "ViewerJS/../documents/researchproposal.pdf" width = '400' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
+      <div class = "child">
+          <iframe  src = "ViewerJS/../documents/researchproposal.pdf" width = '500' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
 
                               <br>
           <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target= "#myModal4">Literature Review</button>
@@ -194,8 +197,8 @@
             </div>
         </div>
 
-         <div >
-          <iframe  src = "ViewerJS/../documents/researchproposal.pdf" width = '400' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
+         <div class = "child" >
+          <iframe  src = "ViewerJS/../documents/researchproposal.pdf" width = '500' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
 
                               <br>
           <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target= "#myModal5"> Research Proposal</button>
@@ -222,8 +225,8 @@
             </div>
         </div>
 
-         <div >
-          <iframe  src = "ViewerJS/../documents/newsrelease.pdf" width = '400' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
+         <div class = "child">
+          <iframe  src = "ViewerJS/../documents/newsrelease.pdf" width = '500' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
 
                               <br>
           <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target= "#myModal6">News Release</button>
@@ -250,21 +253,18 @@
               </div>
             </div>
         </div>
-
+      </div>
       
     </div>
-
-    
-
 
     <br>
     <br>
     <br>
     <div id = "contact" class = "text-center">
           <h3> Contact Me </h3>
-          <p> Phone: </p>
-          <p> Email: </p>
-          <p> Linkedin </p>
+          <i class = "fa fa-linkedin-square " style = "font-size: 24px;color:#4875B4"> <p>Linkedin</p> </i>
+          <i class = "fa fa-mail-forward" style = "font-size: 24px;color: #2b4964"> <p> Email </p> </i>
+          <i class = "fa fa-github-square" style = "font-size: 24px"> <p> Github </p> </i>
 
     </div>
 

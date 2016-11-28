@@ -14,5 +14,15 @@
 }
 .parent{
 	overflow: hidden;
-	width: 100%;
+	position: relative;
+	
+}
+
+.child {
+  float: left;
+  width: 600px;
+  height: 600px;
+  display: block;
+  margin: 10px;
+  border: 1px solid #999;
 }
