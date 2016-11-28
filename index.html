@@ -41,39 +41,98 @@
   </nav>
 
   <!--padding-->
-                                      <br>
+                                      <br id = "about">
                                       <br> 
                                       <br>
 
+  <!--Header information using a carousel to place text -->
     <div id = "about" class="container text-center">      
       <div id="mycarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="item active">
             <img src="longheader copy.JPG" alt="" class="img-responsive">
               <div class="carousel-caption">
+                <img src="unnamed.JPG" class="img-circle move">
+
                 <h3>Kwaku Owusu</h3>
+
               </div>
             </div>
       </div>
-
      <h3> About Me</h3>
-      <p> I am currently a Senior attending Stony Brook university working to complete my Bachelor's in information Systems</p>
+      <p> I am currently a senior attending Stony Brook University working to complete my Bachelor's in information Systems.</p>
+      <p> I've always been intrigued about how computers worked.
+          Since I was young I've helped troubleshoot computing problems and developed a great love for helping others.</p>
+      <p> Eventually I learned to program, and since then I have been interested in deploying automated programs to ease computer use.</p>
+      <p> Below you can find more information about me, such as my resume and other work for my technical writing class.</p>
+    </div>
 </div>
+
+
+
+  <br id = "work"> <br> <br>
+
+    <div class = "container text-center">
+        <h3> Work </h3>
+          <br> <br>
+        <p> Here are some samples of my writing, all of these were created in my technical writing class, CSE 300.</p>
+        <p> Here are I created a large variety of writing, ranging from a resume to a news release.</p>
+        <p> Click the buttons to open a larger preview</p>
+        
+
+        <!-- Modal Window For Resume -->
+        <div>
+          <iframe  src = "ViewerJS/../documents/resume.pdf" width = '400' height='400' allowfullscreen webkitallowfullscreen> </iframe> 
+          <button type = "button" class = "btn btn-primary" data-toggle="modal" data-target= "#myModal">Resume</button>
+
+            <div id="myModal" class="modal fade" role = "dialog">
+              <div class = "modal-dialog">
+
+                <div class= "modal-content">
+                  <div class = "modal-header">
+                    <button type = "button" class = "close" data-dismiss = "modal"> &times; </button>
+                    <h4 class = "modal-title"> Resume </h4>
+                  </div>
+
+                  <div class = "modal-body">
+                    <p> Here is my current resume. <a href = "documents/resume.pdf"> Click here for a full view</a></p> 
+                  <iframe id = "docPreview" src = "ViewerJS/../documents/resume.pdf" width = '550' height='800' allowfullscreen webkitallowfullscreen> </iframe> 
+                  </div>
+
+                  <div class = "modal-footer">
+                    <button type = "button" class = "btn btn-default" data-dismiss = "modal"> Close </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div>
+            <iframe src = "ViewerJS/../documents/coverletter.pdf" width = '400' height='400' allowfullscreen webkitallowfullscreen> </iframe>
+            <button class = "btn-primary"> Cover Letter </button>
+        </div>
+
+        <div>
+            <iframe src = "ViewerJS/../documents/userinstructions.pdf" width = '400' height='400' allowfullscreen webkitallowfullscreen> </iframe>
+            <button class = "btn-primary"> User Instructions </button>
+        </div>
+        <div>
+            <iframe src = "ViewerJS/../documents/researchproposal.pdf" width = '400' height='400' allowfullscreen webkitallowfullscreen> </iframe>
+            <button class = "btn-primary"> Research Proposal </button>
+        </div>
+            
     </div>
 
+    
 
 
     <br>
     <br>
-    <div id = "work" class = "container text-center">
-        <h2> Hello </h2>
-        <h3> asdasd </h3>
-        <p> sadad</p>
+    <br>
+    <div id = "contact" class = "text-center">
+          <h3> Contact Me </h3>
     </div>
 
-    <div class = "container text-center"> 
-    <iframe src = "ViewerJS/../documents/researchproposal.pdf" width = '400' height='300' allowfullscreen webkitallowfullscreen>
-    </iframe>
 
     
   </body>
